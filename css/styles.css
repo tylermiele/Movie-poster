@@ -1,0 +1,164 @@
+/*image credits for all 4 movie poster variations: https://greymatterart.com/blogs/news/into-the-spider-verse-by-matt-ferguson-florey*/
+
+/*styles the background with the blurred image*/
+html {
+    background-image: url("../images/movieposterBlurred.jpg");
+    background-size: cover;
+    background-position-y: 1900px;
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: all 1s;
+}
+/*styles the main movie poseter in the center of the screen*/
+#div1 {
+    text-align: center;
+	width: 900px;
+    height: 1300px;
+	background-image: url("../images/movieposterNoText.jpg");
+    background-size: cover;
+	margin: -20px auto;
+	padding: 2em 2em 2em 2em;
+	border-radius: 5px;
+    transform: scale(0.9);
+    border-radius: 5px;
+    border: 1px solid white;
+}
+/*styles the div in the movie poster that holds all the text*/
+#div2{
+    margin-top: 1020px;
+    margin-left: 200px;
+    transform: rotate(-18deg);
+    font-size: 300%;
+}
+#date{
+    color: orangered;
+}
+#div2 h2{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 10px;
+    text-align: center;
+    margin-left: 80px;
+    color: rgb(255, 145, 0);
+    text-shadow: 2px 3px 4px red;
+}
+#div2 h3{
+    margin-top: -50px;
+    margin-left: 80px;
+    font-size: 60%;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.753);
+}
+#div2 p{
+    margin-top: -22px;
+    margin-left: 85px;
+    font-size: 38%;
+    color: rgba(255, 255, 255, 0.753);
+}
+
+/*Coloured the text to match the spider people's in-movie costumes to the corresponding actor's name*/
+#s1{
+    color:rgb(90, 7, 7);
+    
+}
+#s2{
+    color: rgb(255, 60, 0);
+    
+}
+#s3{
+    color: white;
+}
+#s4{
+    color: red;
+    
+}
+#s5{
+    color: rgb(255, 192, 241);
+    
+}
+#s6{
+    color: white;
+    
+}
+
+/*styles the section just below the poster that holds the movie trailer and the lead single*/
+section {
+    text-align: center;
+	width: 800px;
+    height: 350px;
+    background-color: rgba(16,3,23,255);
+	margin: 10px auto;
+	padding: 2em 2em 2em 2em;
+	border-radius: 5px;
+    border: 1px solid white;
+}
+/*div for the movie trailer*/
+#div3{
+    float: left;
+}
+#div3 h3{
+    text-align: center;
+    margin-top: -2px;
+    font-size: 150%;
+    color: rgb(255, 145, 0);
+    text-shadow: 2px 3px 4px red;
+}
+#div3 h4{
+    text-align: center;
+    margin-top: -10px;
+    color: rgba(255, 255, 255, 0.753);
+}
+#div3 img{
+    margin-bottom: 30px;
+    height: 270px;
+}
+#div3 a:hover a:link{
+    text-decoration: red;
+}
+#div3 a{
+    color: rgb(255, 145, 0);
+    text-decoration: none;
+}
+
+/*div for the song*/
+#div4{
+    float: right;
+}
+#div4 h3{
+    text-align: center;
+    margin-top: -2px;
+    font-size: 150%;
+    color: rgb(255, 145, 0);
+    text-shadow: 2px 3px 4px red;
+}
+#div4 h4{
+    text-align: center;
+    margin-top: -10px;
+    color: rgba(255, 255, 255, 0.753);
+}
+#div4 img{
+    margin-bottom: 30px;
+    height: 270px;
+}
+#div4 a:hover a:link{
+    text-decoration: red;
+}
+#div4 a{
+    color: rgb(255, 145, 0);
+    text-decoration: none;
+}
+
+/*styles the footer*/
+footer p{
+    color:rgba(255, 255, 255, 0.753);
+    text-align: center;
+    margin-bottom: 40px;
+}
+footer strong{
+    color: rgb(192, 56, 56);
+}
+footer img{
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid white;
+    margin-bottom: -15px;
+}
