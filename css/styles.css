@@ -4,10 +4,13 @@
 html {
     background-image: url("../images/movieposterBlurred.jpg");
     background-size: cover;
-    background-position-y: 1900px;
+    background-position-y: 1938px;
     text-transform: uppercase;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    transition: all 1s;
+    transition: all 350ms ease-in;
+}
+main{
+    width: 100%;
 }
 /*styles the main movie poseter in the center of the screen*/
 #div1 {
@@ -16,8 +19,9 @@ html {
     height: 1300px;
 	background-image: url("../images/movieposterNoText.jpg");
     background-size: cover;
-	margin: -20px auto;
-	padding: 2em 2em 2em 2em;
+    background-repeat: no-repeat;
+	margin: 0 auto;
+	padding: 2em;
 	border-radius: 5px;
     transform: scale(0.9);
     border-radius: 5px;
@@ -86,7 +90,7 @@ section {
 	width: 800px;
     height: 350px;
     background-color: rgba(16,3,23,255);
-	margin: 10px auto;
+	margin: 0 auto;
 	padding: 2em 2em 2em 2em;
 	border-radius: 5px;
     border: 1px solid white;
@@ -160,5 +164,4 @@ footer img{
     margin-top: 5px;
     border-radius: 5px;
     border: 1px solid white;
-    margin-bottom: -15px;
 }
